@@ -1,0 +1,14 @@
+﻿@page
+@model FileRepositoryRazor.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center my-5">
+    <h1 class="display-4">File Repository App</h1>
+    <p class="lead">What would you like to do?</p>
+    <div class="d-flex justify-content-center">
+        <a asp-page="/User/Register" class="btn btn-primary btn-lg mx-3">Register a New User</a>
+        <a asp-page="#" class="btn btn-secondary btn-lg mx-3">Login</a>
+    </div>
+</div>
